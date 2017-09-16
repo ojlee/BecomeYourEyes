@@ -13,14 +13,16 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button btnCos = (Button) findViewById(R.id.btnCos);
-        btnCos.setOnClickListener(new View.OnClickListener() {
+
+        Button btnLoc = (Button) findViewById(R.id.btnLoc);
+        btnLoc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,CosActivity.class);
+                Intent intent = new Intent(MainActivity.this,LocActivity.class);
                 startActivity(intent);
             }
         });
+
         Button btnSet = (Button) findViewById(R.id.btnSet);
         btnSet.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         Button btnEme = (Button) findViewById(R.id.btnEme);
         btnEme.setOnClickListener(new View.OnClickListener() {
             @Override

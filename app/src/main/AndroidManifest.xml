@@ -22,7 +22,7 @@
             android:label="@string/main_name"
             />
         <activity
-            android:name=".GuideCourse"
+            android:name=".GuideActivity"
             android:label="@string/guide_name"
             />
         <activity
@@ -38,7 +38,7 @@
             android:label="@string/set_name"
             />
         <activity
-            android:name=".RegActivity"
+            android:name=".LocActivity"
             android:label="@string/reg_name">
 
         </activity>
